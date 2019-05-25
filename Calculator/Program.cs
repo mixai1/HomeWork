@@ -2,17 +2,16 @@
 
 namespace Calculator
 {
-    class Program : ICalculator
+    class Program 
     {
         static void Main(string[] args)
         {
-            ICalculator.Multiplication(x=Convert.ToInt32(Console.ReadLine()));
+           Multiplication Multiplication = new Multiplication();
+           
+            Multiplication.Multip(Multiplication.Input());
 
         }
 
-        public void Multiplication(int value)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

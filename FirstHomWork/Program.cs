@@ -8,7 +8,7 @@ namespace FirstHomWork
         {
             Console.WriteLine("Input nember ?");
            var Number = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"You Input nember {Number}");
+            Console.WriteLine($"You Input number {Number}");
             NumberDay(Number);
 
 
