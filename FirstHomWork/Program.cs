@@ -7,13 +7,13 @@ namespace FirstHomWork
         static void Main(string[] args)
         {
             Console.WriteLine("Input nember ?");
-           var Number = Convert.ToInt32(Console.ReadLine());
+            var Number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"You Input number {Number}");
             NumberDay(Number);
 
 
 
-             static void NumberDay(int Number)
+            static void NumberDay(int Number)
             {
                 switch (Number)
                 {
@@ -40,7 +40,7 @@ namespace FirstHomWork
                         Console.WriteLine("Sunday");
                         break;
 
-                   default:
+                    default:
                         Console.WriteLine("No Day");
                         break;
 
@@ -51,6 +51,6 @@ namespace FirstHomWork
             }
         }
 
-        
+
     }
 }

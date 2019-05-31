@@ -3,12 +3,13 @@
 namespace Calculator
 {
     class Program 
+
     {
         static void Main(string[] args)
         {
            Multiplication Multiplication = new Multiplication();
-           
-            Multiplication.Multip(Multiplication.Input());
+            Input input = new Input();
+            Multiplication.Multip(input.Inputnumber());
 
         }
 

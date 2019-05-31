@@ -6,12 +6,7 @@ namespace Calculator
 {
     class Multiplication
     {
-        public int Input()
-        {
-            Console.WriteLine("input nuber");
-           var x=Convert.ToInt32(Console.ReadLine());
-            return x;
-        }
+       
         public void Multip (int number)
         {
             
